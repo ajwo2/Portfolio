@@ -7,7 +7,7 @@ const Top = () => (
     </div>
     <Link href="/projects">Projects</Link>
     <Link href="/contact">Contact</Link>
-    <h1>Home Page</h1>
+    <h1 className="topnav">Home Page</h1>
     <div>Welcome...</div>
   </div>
 )
