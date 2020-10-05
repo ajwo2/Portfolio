@@ -25,6 +25,7 @@ const Nav = () => (
                     color: black;
                     color: black;
                     font-family: courier;
+                    font-weight: bold;
                     font-size: 24px;
                     text-decoration: none;
                     padding: 10px 20px;
