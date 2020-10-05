@@ -1,11 +1,11 @@
 import Link from 'next/link'
+import Layout from '../components/layout'
 
 const Top = () => (
   <div>
-    <Link href="/about">About</Link>
-    <Link href="/projects">Projects</Link>
-    <Link href="/contact">Contact</Link>
-    <div>Projects</div>
+    <Layout>
+      Projects
+    </Layout>
   </div>
 )
 
