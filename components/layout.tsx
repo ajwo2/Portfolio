@@ -13,7 +13,7 @@ const Layout = (props) => {
                         font-size: 60px;
                         font-family: courier;
                         font-weight: regular;
-                        height: 100vh;
+                        height: 50vh;
                     }
                 
                 `}
