@@ -15,7 +15,7 @@ const Nav = () => (
             <a className="contact">Contact</a>
         </Link>
 
-        <style tsx>
+        <style>
             {`
                 div{
                     text-align: center;
