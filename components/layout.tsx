@@ -3,17 +3,18 @@ import Nav from "./nav";
 
 const Layout = (props) => {
     return (
-        <div>
+        <div className="mainText">
             { props.children }
             <style>
                 {`
-                    div {
+                    .mainText {
                         text-align: center;
                         padding: 5px;
                         font-size: 60px;
                         font-family: courier;
                         font-weight: regular;
-                        height: 50vh;
+                        height: 100vh;
+                        margin-top: 20%;
                     }
                 
                 `}
