@@ -1,12 +1,13 @@
 import Link from 'next/link';
-import Blank from '../components/blank';
-
+import Layout from '../components/layout'
 import Nav from '../components/nav'
 
 const Top = () => (
   <div>
     <Nav/>
-    <Blank/>
+    <Layout>
+      Welcome...
+    </Layout>
    
   </div>
 )

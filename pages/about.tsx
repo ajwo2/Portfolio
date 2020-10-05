@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
-
-
+import Nav from '../components/nav'
 const About = () => (
   <div>
-  <Layout>
-  Aieloreuan Joel Wellington Ohiwerei II
-</Layout>
+    <Nav/>
+    <Layout>
+      Aileloreuan Joel Wellington Ohiwerei II
+    </Layout>
   </div>
 )
 
