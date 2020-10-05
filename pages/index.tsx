@@ -1,11 +1,13 @@
 import Link from 'next/link';
-import './main.css';
+import Nav from '../components/nav';
 
 const Top = () => (
   <div>
-    <div className="topnav">
-      <Link href="/about">About</Link>
-    </div>
+      <Nav/>
+
+  
+    <Link href="/about">About</Link>
+
     <Link href="/projects">Projects</Link>
     <Link href="/contact">Contact</Link>
     <h1 className="topnav">Home Page</h1>
