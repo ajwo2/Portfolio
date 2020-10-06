@@ -31,6 +31,7 @@ const Nav = () => (
                     padding: 10px 20px;
                     display: inline-block;
                     text-align: center;
+                    
                 }
             
             `}
