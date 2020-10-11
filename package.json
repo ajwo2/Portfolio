@@ -1,12 +1,12 @@
 {
-  "name": "Portfolio",
+  "name": "package.json",
   "version": "1.0.0",
   "description": "... stuff",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/ajwo2/Portfolio#readme",
   "dependencies": {
-    "next": "^9.5.3",
+    "next": "^9.5.5",
+    "node": "^14.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
