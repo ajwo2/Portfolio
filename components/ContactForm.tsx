@@ -24,6 +24,8 @@ export default ContactForm => {
       })
     } else {
       setStatus({
+        submitted: false,
+        submitting: false,
         info: { error: true, msg: msg },
       })
     }
