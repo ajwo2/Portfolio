@@ -31,7 +31,16 @@ const Nav = () => (
                     padding: 10px 20px;
                     display: inline-block;
                     text-align: center;
+                    -webkit-transition: color 0.7s;
+                    -moz-transition:    color 0.7s;
+                    -ms-transition:     color 0.7s;
+                    -o-transition:      color 0.7s;
+                    transition:         color 0.7s;
                     
+                }
+
+                a:hover {
+                    color: 	#a17f1a;
                 }
             
             `}
